@@ -41,6 +41,8 @@ Restart the desktop app, open the Plugins Directory, choose the Clarify First ma
 
 GitHub distribution through a marketplace and publication in the official ChatGPT/Codex public Plugins Directory are separate processes. Public directory listing requires a submission and review.
 
+For the official directory, see the [submission notes and reviewer test cases](SUBMISSION.md).
+
 ### Claude Code
 
 Copy `plugins/clarify-first/skills/clarify-first/` into `~/.claude/skills/clarify-first/` for personal use, or `.claude/skills/clarify-first/` in a project. Then invoke `/clarify-first` with a task. Claude Code ignores the OpenAI-specific `agents/openai.yaml` file.

@@ -19,7 +19,7 @@ Each case can be run without an account connection or private data. The skill us
 | Type | User prompt or scenario | Expected behavior and result shape |
 | --- | --- | --- |
 | Positive 1 | `$clarify-first Build a website for my consulting business.` | Invoke the skill; ask only one focused question about the most consequential missing detail. Do not begin the website. |
-| Positive 2 | `$clarify-first Convert 13:05 to 12-hour time. Return only the converted value.` | Invoke the skill; ask no clarification question; present a brief understanding and approach, then ask for confirmation before converting. |
+| Positive 2 | `$clarify-first Convert 13:05 to 12-hour time.` | Invoke the skill; ask no clarification question; present a brief understanding and approach, then ask for confirmation before converting. |
 | Positive 3 | User corrects the proposed approach: `Use a table instead.` | Revise the approach to a table and seek confirmation again. Do not execute yet. |
 | Positive 4 | After confirming the conversion approach, user says `Yes, go ahead.` | Carry out the original task and return `1:05 PM` in the agreed form. |
 | Positive 5 | User invokes `$clarify-first` with no task. | Ask what task they want help with; do not invent one. |
