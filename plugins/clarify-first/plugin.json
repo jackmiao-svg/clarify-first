@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "clarify-first",
+  "version": "0.1.0",
+  "description": "Clarify a task one question at a time, confirm the approach, then complete it.",
+  "license": "MIT",
+  "homepage": "https://github.com/jackmiao-svg/clarify-first",
+  "repository": "https://github.com/jackmiao-svg/clarify-first"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "clarify-first-community",
+  "interface": {
+    "displayName": "Clarify First"
+  },
+  "plugins": [
+    {
+      "name": "clarify-first",
+      "source": {
+        "source": "local",
+        "path": "./plugins/clarify-first"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Clarify First"
+  short_description: "Clarify one task before carrying it out"
+  default_prompt: "Use $clarify-first to help me with this task: "
+policy:
+  allow_implicit_invocation: false

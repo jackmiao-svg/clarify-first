@@ -1,0 +1,22 @@
+{
+  "name": "clarify-first",
+  "version": "0.1.0",
+  "description": "Clarify a task one question at a time, confirm the approach, then complete it.",
+  "author": {
+    "name": "Clarify First contributors"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jackmiao-svg/clarify-first",
+  "repository": "https://github.com/jackmiao-svg/clarify-first",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Clarify First",
+    "shortDescription": "Clarify tasks before acting",
+    "longDescription": "Ask focused questions only when needed, confirm the user's goal and approach, then finish the original task.",
+    "developerName": "Clarify First contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use $clarify-first to help me with this task: ",
+    "websiteURL": "https://github.com/jackmiao-svg/clarify-first"
+  }
+}
